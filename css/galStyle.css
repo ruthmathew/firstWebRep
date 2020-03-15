@@ -18,67 +18,55 @@ h3{
 
 #fl{
     float: left;
-    border-radius: 300px;
-    border-style: hidden;
-    width: 300px;
    background-image: url(../image/flowers.jpg);
-    height: 300px;
-    margin: 0px 15px 0px 3px;
+    height: 30%;
+    width: 30%;
+    margin: 1.6%;
+    
 }
 #oc{
     float: left;
-    border-radius: 300px;
-    border-style: hidden;
     background-image: url(../image/ocean1.jpg);
-    width: 300px;
-    height: 300px;
-    margin: 0px 15px 0px 3px;
+    height: 30%;
+    width: 30%;
+    margin: 1.6%;
 }
 
 #in{
     float: left;
-    border-radius: 300px;
-    border-style: hidden;
     background-image: url(../image/interior.jpg);
-    width: 300px;
-    height: 300px;
-    margin: 0px 15px 0px 3px;
+    height: 30%;
+    width: 30%;
+    margin: 1.6%;
 }
 #od{
     float: left;
-    border-radius: 300px;
-    border-style: hidden;
     background-image: url(../image/oldHouse.jpg);
-    width: 300px;
-    height: 300px;
-    margin: 0px 15px 0px 3px;
+    height: 30%;
+    width: 30%;
+    margin: 1.6%;
 }
 #rn{
     float: left;
-    border-radius: 300px;
-    border-style: hidden;
+    
     background-image: url(../image/rain.jpg);
-    width: 300px;
-    height: 300px;
-    margin: 0px 15px 0px 3px;
+    height: 30%;
+    width: 30%;
+    margin: 1.6%;
 }
 #de{
     float: left;
-    border-radius: 300px;
-    border-style: hidden;
     background-image: url(../image/desertView.jpeg);
-    width: 300px;
-    height: 300px;
-    margin: 0px 15px 0px 3px;
+    height: 30%;
+    width: 30%;
+    margin: 1.6%;
 }
 #fo{
     float: left;
-    border-radius: 300px;
-    border-style: hidden;
     background-image: url(../image/fountain.jpg);
-    width: 300px;
-    height:300px;
-    margin: 0px 15px 0px 3px;
+    height: 30%;
+    width: 30%;
+    margin: 1.6%;
 }
 #be{
     float: left;
