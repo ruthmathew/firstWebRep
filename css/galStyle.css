@@ -1,82 +1,19 @@
-p{
-    color: blueviolet;
-}
 body{
     background-color: burlywood;
-    /* border:solid lightgray 10px; */
     margin: 10px;
 }
-header{
-    background-color: darkgray;
-    
-    position: fixed;
-    width: 100%;
-    top: 0px;
-}
-section{
-    margin-top: 100px;
+
+h3{
+    font-size: xx-large;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 5px 30px;
-}
-article{
-    font-size: 15px;
-    line-height: 25px;
-}
-.title{
-    font-size: 23px;
-    font-weight: bold;
-}
-.date{
     font-style: italic;
-    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
     text-transform: uppercase;
-}
-/* nav{
-    background-color: lightgreen;
-} */
-nav>ul>li{
-    display: inline;
-    padding: 10px 3px;
-    font-size: 20px;
-}
-nav>ul>li>a{
-    text-decoration: none;
-}
-nav>ul>li>a:link{
-    background-color: lightsalmon;
-}
-nav>ul>li>a:visited{
-    background-color: lightyellow;
-}
-nav>ul>li>a:hover{
-    background-color: navajowhite;
-}
-nav>ul>li>a:active{
-    background-color: rosybrown;
-}
-
-nav>ul>li:hover{
-    background-color: #ffffff;
-}
-img{
-    float: left;
-    border-radius: 100%;
-    border-style: hidden;
-    width: 250px;
-    height: 250px;
-    margin: 0px 15px 0px 3px;
-}
-#clear{
-    clear: left;
-}
-#test{
-    background-color: darkred;
-    font-size: 20px;
-}
-
-footer{
-    margin-top: 100px;
-    padding-top: 100px;
+    width: 30em;
+    border-bottom: medium;
+    border-bottom: 20px;
+    
 }
 
 #fl{
@@ -188,3 +125,4 @@ footer{
     height: 300px;
     margin: 0px 15px 0px 3px;
 }
+
