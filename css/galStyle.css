@@ -18,54 +18,63 @@ h3{
 
 #fl{
     float: left;
+    border-radius: 300px;
    background-image: url(../image/flowers.jpg);
-    height: 30%;
+    height: 300px;
     width: 30%;
     margin: 1.6%;
     
 }
 #oc{
     float: left;
+    border-radius: 300px;
     background-image: url(../image/ocean1.jpg);
-    height: 30%;
+    height: 300px;
     width: 30%;
     margin: 1.6%;
 }
 
 #in{
     float: left;
+    border-radius: 300px;
     background-image: url(../image/interior.jpg);
-    height: 30%;
+    height: 300px;
     width: 30%;
     margin: 1.6%;
 }
 #od{
     float: left;
+    border-radius: 300px;
     background-image: url(../image/oldHouse.jpg);
-    height: 30%;
     width: 30%;
+    height: 300px;
     margin: 1.6%;
 }
 #rn{
     float: left;
-    
+    border-radius: 300px;
+    border-style: hidden;
     background-image: url(../image/rain.jpg);
-    height: 30%;
     width: 30%;
+    height: 300px;
     margin: 1.6%;
 }
 #de{
     float: left;
+    border-radius: 300px;
+    border-style: hidden;
     background-image: url(../image/desertView.jpeg);
-    height: 30%;
     width: 30%;
+    height: 300px;
     margin: 1.6%;
 }
 #fo{
     float: left;
+    border-radius: 300px;
+    border-style: hidden;
     background-image: url(../image/fountain.jpg);
-    height: 30%;
     width: 30%;
+    height: 300px;
     margin: 1.6%;
 }
 #be{
@@ -73,44 +82,44 @@ h3{
     border-radius: 300px;
     border-style: hidden;
     background-image: url(../image/beach1.jpg);
-    width: 300px;
+    width: 30%;
     height: 300px;
-    margin: 0px 15px 0px 3px;
+    margin: 1.6%;
 }
 #bee{
     float: left;
     border-radius: 300px;
     border-style: hidden;
     background-image: url(../image/beeez.jpg);
-    width: 300px;
+    width: 30%;
     height: 300px;
-    margin: 0px 15px 0px 3px;
+    margin: 1.6%;
 }
 #bv{
     float: left;
     border-radius: 300px;
     border-style: hidden;
     background-image: url(../image/beachView.jpg);
-    width: 300px;
+    width: 30%;
     height: 300px;
-    margin: 0px 15px 0px 3px;
+    margin: 1.6%;
 }
 #co{
     float: left;
     border-radius: 300px;
     border-style: hidden;
     background-image: url(../image/coffe.jpg);
-    width: 300px;
+    width: 30%;
     height: 300px;
-    margin: 0px 15px 0px 3px;
+    margin: 1.6%;
 }
 #ld{
     float: left;
     border-radius: 300px;
     border-style: hidden;
     background-image: url(../image/landscape.jpg);
-    width: 300px;
+    width: 30%;
     height: 300px;
-    margin: 0px 15px 0px 3px;
+    margin: 1.6%;
 }
 
