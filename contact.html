@@ -8,162 +8,79 @@
     <link  rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>Hello</h1>
- <hr>
- <a href="index.html"> Home</a>
- <a href="contact.html"> Contact</a>
- <a href="Gallery.html"> Gallery</a>  
-<hr> 
-        <div class="ima"></div>
+    <header id="overNav">
+        <nav>
+            <ul>
+                <li><a href="index.html"> Home</a></li>
+                
+                <li><a href="contact.html"> Contact</a></li>
+                
+                <li><a href="Gallery.html"> Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="marg">
+        <h1>Contact Me</h1>
+    </section>
+    <div class="hrl"></div>
+    <div class="ima"></div>
+    <section >
         <h1> Ruth Matewos</h1>
-        <h3>Addis ababa Universty</h3>
-        <p> hello , i'm ruth , im a software engineering student ....</p>
-
-<!-- <form method="POST" action="mailto:se.ruth.matewos@gmail.com"> 
-    <label for="fname"> First Name</label>&nbsp;
-    <input type="text" name="fname" id="fname">
-    <br><br>
-    <label for="lname"> Last Name</label>&nbsp;
-    <input type="text" name="lname" id="lname">
-    <br><br>
-    <label for= "email"> Email</label>&nbsp; 
-    <input type="email" name="email" id="email">
-    <br><br>
-    <select name="Country" id="country">
-        <option values="As"> Asia</option>
-        <option value="Af"> Africa</option>
-
-    </select>
-    <br>
-    <label for="detail"> What Do you say?</label>
-    <br>
-    <textarea type="text" name="details" id="details" cols="30" rows="10">
-    </textarea>
-        <br><br>
-    <button >Submit</button>
-</form> -->
-
-<br><br><br><br><br><br><br><br><br><br><br><br>
-<hr>
-<!-- <table cellspacing="10">
-    <tr>
-        <td> -->
-
-<!-- <table>
-    <tr>
-        <td> <label for="fname"> First Name</label></td>
-        <td> <input type="text"  pattern="[A-Za-z]{1,10}" title="only Alphabets allowed"></td>
+        <h2>Addis ababa Universty</h2>
+        <p> Hello,I'm Ruth. I am a software engineering student in Addis Ababa Universty center of Information Technology and Scientfic Computing ....</p>
+    </section>
+    <div class="hrl"></div>
+    <h3 style="margin: 5% 0 1% 2%">Contact Me</h3>
+    <form action="mailto:se.ruth.matewos@gmail.com" enctype="utf-8 me" method="POST"> 
+        <label for="fname"> First Name</label>
+        <input type="text"  pattern="[A-Za-z]{1,10}" title="only Alphabets allowed">
         
-    </tr>
-    <tr>
-        <td> <label for="lname"> Last Name</label></td>
-        <td> <input type="text" pattern="[A-Za-z]{1,10}" title="only Alphabets allowed"></td>
-    </tr>
-    <tr>
-        <td> <label for= "email"> Email</label></td>
-        <td> <input type="email"></td>
-    </tr>
-    <tr>
-        <td> <label for= "password"> password</label></td>
-        <td> <input type="password" pattern="[A-Za-z/d]{8,15}" title="a password must include number, symbol, albhabet and be greater than 8 character" required></td>
-    </tr>
-    <tr>
-        <td> <label for= "PhoneNumber"> Phone Number</label></td>
-        <td> <input type="tel" pattern="[d]{10-12}" title=" 10 upto 12 digit numbers only">></td>
-    </tr>
-    <tr>
-        <td> <label for= "sex"> Sex</label></td>
-        <td><input type="radio" name="radio" id="radio"/> male<input type="radio" name="radio" id="radio"/>female</td>
+        <label for="lname"> Last Name</label>
+        <input type="text" pattern="[A-Za-z]{1,10}" title="only Alphabets allowed">
+        
+        <label for= "email"> Email</label>
+        <input type="email">
 
-    </tr>
-    <tr>
-        <td> <select name="Country" id="country">
+        <label for= "password"> password</label>
+        <input type="password" pattern="[A-Za-z/d]{8,15}" title="a password must include number, symbol, albhabet and be greater than 8 character" required>
+
+        <label for= "PhoneNumber"> Phone Number</label>
+        <input type="tel" pattern="[d]{10-12}" title=" 10 upto 12 digit numbers only">
+
+        <label> Country</label>
+        <select name="Country" id="country">
             <option values="As"> Ethiopia</option>
             <option value="Af"> England</option>
             <option value="Af"> Korea</option>
             <option value="Af"> Canada</option>
-    
         </select>
-        </td>
-    </tr>
-    <tr>
-        <td> <label for="detail"> What Do you say?</label></td>
-        <td> <textarea type="text" name="details" id="details" cols="30" rows="10">
-        </textarea></td>
-    </tr>
-    <tr>
-        <td> <button >Submit</button></td>
-    </tr>
-</table> -->
-<div id=cont>
-    <h3>contact us....</h3>
-    <form action="mailto:se.ruth.matewos@gmail.com" enctype="utf-8 me" method="POST"> 
-
-<div class="fn">
-     <h3> First name</h3>
-     <br>
-    <input type="text"  pattern="[A-Za-z]{1,10}" title="only Alphabets allowed">
-</div>
-<div class="ln">
-    <h3> Last name</h3>
-    <br>
-    <input type="text" pattern="[A-Za-z]{1,10}" title="only Alphabets allowed">
-</div>
-<div class="em">
-    <h3> Email</h3>
-    <br>
-    <input type="email">
-</div>
-<div class="pa">
-    <h3> Password</h3><br>
-    <input type="password" pattern="[A-Za-z/d]{8,15}" title="a password must include number, symbol, albhabet and be greater than 8 character" required>
-</div>
-<div class="po">
-    <h3> Phone number</h3>
-    <br>
-    <input type="tel" pattern="[d]{10-12}" title=" 10 upto 12 digit numbers only">
-</div>
-<div class="se">
-    <h3> Sex</h3>
-    <br>
-    <input type="radio" name="radio" id="radio"/> male<input type="radio" name="radio" id="radio"/>female
-</div>
-<div class="co">
-    <h3> Country</h3>
-    <br>
-    <select name="Country" id="country">
-        <option values="As"> Ethiopia</option>
-        <option value="Af"> England</option>
-        <option value="Af"> Korea</option>
-        <option value="Af"> Canada</option>
-
-    </select>
-</div>
-<div class="de">
-    <h3> What do you want to say?</h3>
-    <br>
-         <textarea type="text" name="details" id="details" cols="30" rows="10">
+        
+        <label for="detail"> What Do you say?</label>
+        <textarea type="text" name="details" id="details" cols="30" rows="10">
         </textarea>
-</div>
-</div>
-<!-- </td>
-<td> -->
-<div id="can">
-<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20Addis%20Ababa%20Institute%20Of%20Technology&t=k&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
-</div>
-<!-- </td>
-</tr>
-</table>
-<hr> -->
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<hr>
-<footer>
-<a href="" target="blank"> Facebook</a>
-<a href="" target="blank"> Telegram</a>
-<hr>
-<p> Devloped by Ruth &copy; Right Reserved</p>  
-</footer>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+    <div id="map">
+
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20Addis%20Ababa%20Institute%20Of%20Technology&t=k&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>   
+
+    </div>
+
+
+
+<div class="hrlb"></div>
+        <footer>
+            <ul>
+                <li> <a href="" target="blank"> Facebook</a></li>
+                <li> &nbsp;&nbsp;</li>
+                <li> <a href="" target="blank"> Telegram</a></li>
+                <li> &nbsp;&nbsp;</li>
+                <li> <p> Devloped by Ruth &copy; Right Reserved</p></li>
+            </ul>
+        </footer>
 
 </body>
 </html>

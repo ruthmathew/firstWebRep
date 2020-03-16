@@ -1,26 +1,188 @@
-p{
-    color: blueviolet;
-}
+/* COMMON STYLE */
 body{
     background-color: burlywood;
-    /* border:solid lightgray 10px; */
     margin: 10px;
 }
 header{
-    background-color: darkgray;
-    
+    background-color: hsl(46, 49%, 38%);
     position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     width: 100%;
-    top: 0px;
+    height: 10%;
+    
 }
+
+nav>ul>li{
+    display: inline-block;
+    padding: 9px 18px;
+    font-size: 20px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+nav > ul > li > a:link {
+    color:rgb(204, 200, 185);
+}
+
+nav > ul > li > a:visited {
+    color:rgb(204, 200, 185);
+}
+
+nav > ul > li:hover:not(.active) {
+    background-color: rgb(207, 171, 53);
+}
+
+nav > ul > li > a.active {
+    background-color: rgb(207, 171, 53);
+    color: white;
+}
+
 section{
-    margin-top: 100px;
+    margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 5px 30px;
+    line-height: 1;
 }
+
+footer{
+    height: 3%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+footer > ul > li {
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 18px;
+    color: rgb(87, 72, 22);
+}
+
+footer > ul > li > a {
+    text-decoration: none;
+    color: rgb(87, 72, 22);
+}
+
+
+footer > ul > li > a:hover {
+    color: rgb(180, 71, 21);
+}
+
+h1{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.marg{
+    margin-top: 60px;
+}
+
+.hrlb{
+    border-bottom: rgb(207, 165, 109) 2px solid;
+    clear: left;
+    padding-bottom: 5%;
+}
+
+.hrl {
+    border-bottom: rgb(218, 220, 221) 2px solid;
+    clear: left;
+    padding-bottom: 5px;
+}
+
+/* //////////////////////////////////////////////// */
+
+/* FOR ABOUT PAGE */
+
+.ro {
+    float: left;
+    margin: 0 25px 0 0;
+}
+
+.ima{
+    float: left;
+    background-image: url(../image/girlAndDog.jpg);
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 300px;
+}
+
+/* ///////////////////////////////////////////////////// */
+
+/* FOR CONTACT PAGE */
+
+
+div.map, form{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+form {
+    position: relative;
+    width: 30%;
+    margin: 0 0 5% 5%;
+    float: left;
+    padding: 0;
+}
+
+label {
+    padding: 12px 0 12px 0;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 15px;
+    }
+
+input[type=submit]{
+    cursor: pointer;
+    left: 30%;
+    display: block;
+    width: 30%;
+    padding: 5px;
+    margin: 5%;
+    background-color:   rgb(207, 171, 53);
+}
+
+
+input[type=text],input[type=email], input[type=tel], input[type=password], select, textarea {
+    padding: 8px 0;
+    width: 100%;
+    display:block;
+    box-sizing: content-box;
+    background-color: white;
+    border: none;
+}
+
+
+input[type=submit]:hover{
+    background-color:  rgb(199, 189, 158);
+}
+
+#map {
+    float: left;
+    width: 45%;
+    margin: 10%;
+    
+}
+
+#overNav{
+    z-index:2;
+}
+
+/* ////////////////////////////////////////////// */
+
+/* FOR BLOG PAGE */
+
 article{
     font-size: 15px;
     line-height: 25px;
+    text-align: justify;
 }
 .title{
     font-size: 23px;
@@ -31,33 +193,9 @@ article{
     font-size: 16px;
     text-transform: uppercase;
 }
-/* nav{
-    background-color: lightgreen;
-} */
-nav>ul>li{
-    display: inline;
-    padding: 10px 3px;
-    font-size: 20px;
-}
-nav>ul>li>a{
-    text-decoration: none;
-}
-nav>ul>li>a:link{
-    background-color: lightsalmon;
-}
-nav>ul>li>a:visited{
-    background-color: lightyellow;
-}
-nav>ul>li>a:hover{
-    background-color: navajowhite;
-}
-nav>ul>li>a:active{
-    background-color: rosybrown;
-}
 
-nav>ul>li:hover{
-    background-color: #ffffff;
-}
+
+
 img{
     float: left;
     border-radius: 100%;
@@ -70,75 +208,23 @@ img{
     clear: left;
 }
 #test{
-    background-color: darkred;
+    background-color:  lightsalmon;
     font-size: 20px;
 }
 
 
-
-#cont{
+/* #cont{
     float: left;
     width: 300px;
     height: 500px;
-    /* margin: 8px; */
+    
 }
 
 #can{
     float: right;
     
-}
-
-/* .fn{
-    
-    width: 280px;
-    height: 280px;
-    margin: 8px;
-} */
-/* 
-.ln{
-    
-    width: 280px;
-    height: 280px;
-    margin: 8px;
 } */
 
 
 
 
-/* .po{
-    float: left;
-    width: 280px;
-    height: 280px;
-    margin: 8px;
-}
-
-.se{
-    float: left;
-    width: 280px;
-    height: 280px;
-    margin: 8px;
-}
-
-.co{
-    float: left;
-    width: 280px;
-    height: 280px;
-    margin: 8px;
-}
-
-.de{
-    float: left;
-    width: 280px;
-    height: 280px;
-    margin: 8px;
-} */
-
-
-.ima{
-    float: left;
-    background-image: url(../image/girlAndDog.jpg);
-    width: 300px;
-    height: 300px;
-    margin: 20px;
-    border-radius: 300px;
-}

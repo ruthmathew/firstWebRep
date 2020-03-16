@@ -3,6 +3,97 @@ body{
     margin: 10px;
 }
 
+header{
+    background-color: hsl(46, 49%, 38%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 10%;
+    
+}
+section{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 30px;
+    line-height: 1;
+}
+
+footer{
+    height: 3%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+footer > ul > li {
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 18px;
+    color: rgb(87, 72, 22);
+}
+
+footer > ul > li > a {
+    text-decoration: none;
+    color: rgb(87, 72, 22);
+}
+
+
+footer > ul > li > a:hover {
+    color: rgb(180, 71, 21);
+}
+
+.marg{
+    margin-top: 60px;
+}
+
+nav>ul>li{
+    display: inline-block;
+    padding: 9px 18px;
+    font-size: 20px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+nav > ul > li > a:link {
+    color:rgb(204, 200, 185);
+}
+
+nav > ul > li > a:visited {
+    color:rgb(204, 200, 185);
+}
+
+nav > ul > li:hover:not(.active) {
+    background-color: rgb(207, 171, 53);
+}
+
+nav > ul > li > a.active {
+    background-color: rgb(207, 171, 53);
+    color: white;
+}
+
+.hrl {
+    border-bottom: rgb(218, 220, 221) 2px solid;
+    clear: left;
+    padding-bottom: 5px;
+}
+
+h1{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.hrlb{
+    border-bottom: rgb(207, 165, 109) 2px solid;
+    clear: left;
+    padding-bottom: 5%;
+}
+
 h3{
     font-size: xx-large;
     font-family: Arial, Helvetica, sans-serif;
@@ -16,110 +107,101 @@ h3{
     
 }
 
+
 #fl{
     float: left;
-    border-radius: 300px;
-   background-image: url(../image/flowers.jpg);
-    height: 300px;
+   background-image: url(../image/flower.jpg);
+    height: 500px;
     width: 30%;
     margin: 1.6%;
     
 }
 #oc{
     float: left;
-    border-radius: 300px;
-    background-image: url(../image/ocean1.jpg);
-    height: 300px;
+    background-image: url(../image/landscape.jpg);
+    height: 500px;
     width: 30%;
     margin: 1.6%;
 }
 
 #in{
     float: left;
-    border-radius: 300px;
-    background-image: url(../image/interior.jpg);
-    height: 300px;
+    background-image: url(../image/fountain.jpg);
+    height: 500px;
     width: 30%;
     margin: 1.6%;
 }
 #od{
     float: left;
-    border-radius: 300px;
-    background-image: url(../image/oldHouse.jpg);
+    background-image: url(../image/forestView.jpg);
     width: 30%;
-    height: 300px;
+    height: 500px;
     margin: 1.6%;
 }
 #rn{
-    float: left;
-    border-radius: 300px;
+    float: left; 
     border-style: hidden;
     background-image: url(../image/rain.jpg);
     width: 30%;
-    height: 300px;
+    height: 500px;
     margin: 1.6%;
 }
 #de{
     float: left;
-    border-radius: 300px;
     border-style: hidden;
-    background-image: url(../image/desertView.jpeg);
+    background-image: url(../image/church.jpg);
     width: 30%;
-    height: 300px;
+    height: 500px;
     margin: 1.6%;
 }
 #fo{
     float: left;
-    border-radius: 300px;
     border-style: hidden;
-    background-image: url(../image/fountain.jpg);
+    background-image: url(../image/cave.jpg);
     width: 30%;
-    height: 300px;
+    height: 500px;
     margin: 1.6%;
 }
 #be{
     float: left;
-    border-radius: 300px;
     border-style: hidden;
-    background-image: url(../image/beach1.jpg);
+    background-image: url(../image/oldHouse.jpg);
     width: 30%;
-    height: 300px;
+    height: 500px;
     margin: 1.6%;
 }
 #bee{
     float: left;
-    border-radius: 300px;
     border-style: hidden;
     background-image: url(../image/beeez.jpg);
     width: 30%;
-    height: 300px;
+    height: 500px;
     margin: 1.6%;
 }
 #bv{
     float: left;
-    border-radius: 300px;
+    
     border-style: hidden;
-    background-image: url(../image/beachView.jpg);
+    background-image: url(../image/landscape3.jpg);
     width: 30%;
-    height: 300px;
+    height: 500px;
     margin: 1.6%;
 }
 #co{
     float: left;
-    border-radius: 300px;
+    
     border-style: hidden;
-    background-image: url(../image/coffe.jpg);
+    background-image: url(../image/lamps.jpeg);
     width: 30%;
-    height: 300px;
+    height: 500px;
     margin: 1.6%;
 }
 #ld{
     float: left;
-    border-radius: 300px;
     border-style: hidden;
-    background-image: url(../image/landscape.jpg);
+    background-image: url(../image/lake.jpg);
     width: 30%;
-    height: 300px;
+    height: 500px;
     margin: 1.6%;
 }
 
